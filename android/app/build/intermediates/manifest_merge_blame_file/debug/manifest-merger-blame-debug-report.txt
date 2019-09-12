@@ -1,0 +1,178 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.carapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="28" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->F:\myproject\ReactNativeproject\CarApp\android\app\src\main\AndroidManifest.xml:7:5-77
+11-->F:\myproject\ReactNativeproject\CarApp\android\app\src\main\AndroidManifest.xml:7:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->F:\myproject\ReactNativeproject\CarApp\android\app\src\main\AndroidManifest.xml:4:5-67
+12-->F:\myproject\ReactNativeproject\CarApp\android\app\src\main\AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+13-->F:\myproject\ReactNativeproject\CarApp\android\app\src\main\AndroidManifest.xml:5:5-74
+13-->F:\myproject\ReactNativeproject\CarApp\android\app\src\main\AndroidManifest.xml:5:22-71
+14    <uses-permission android:name="android.permission.CAMERA" />
+14-->F:\myproject\ReactNativeproject\CarApp\android\app\src\main\AndroidManifest.xml:6:5-65
+14-->F:\myproject\ReactNativeproject\CarApp\android\app\src\main\AndroidManifest.xml:6:22-62
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->F:\myproject\ReactNativeproject\CarApp\android\app\src\main\AndroidManifest.xml:8:5-80
+15-->F:\myproject\ReactNativeproject\CarApp\android\app\src\main\AndroidManifest.xml:8:22-78
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->F:\myproject\ReactNativeproject\CarApp\android\app\src\main\AndroidManifest.xml:9:5-80
+16-->F:\myproject\ReactNativeproject\CarApp\android\app\src\main\AndroidManifest.xml:9:22-77
+17    <uses-permission android:name="com.fingerprints.service.ACCESS_FINGERPRINT_MANAGER" />
+17-->[:react-native-fingerprint-scanner] F:\myproject\ReactNativeproject\CarApp\node_modules\react-native-fingerprint-scanner\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-91
+17-->[:react-native-fingerprint-scanner] F:\myproject\ReactNativeproject\CarApp\node_modules\react-native-fingerprint-scanner\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:22-88
+18    <uses-permission android:name="com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY" />
+18-->[:react-native-fingerprint-scanner] F:\myproject\ReactNativeproject\CarApp\node_modules\react-native-fingerprint-scanner\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-117
+18-->[:react-native-fingerprint-scanner] F:\myproject\ReactNativeproject\CarApp\node_modules\react-native-fingerprint-scanner\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:22-114
+19
+20    <uses-feature
+20-->[:react-native-camera] F:\myproject\ReactNativeproject\CarApp\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:11:5-13:36
+21        android:name="android.hardware.camera"
+21-->[:react-native-camera] F:\myproject\ReactNativeproject\CarApp\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:12:9-47
+22        android:required="false" />
+22-->[:react-native-camera] F:\myproject\ReactNativeproject\CarApp\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:13:9-33
+23    <uses-feature
+23-->[:react-native-camera] F:\myproject\ReactNativeproject\CarApp\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:14:5-16:36
+24        android:name="android.hardware.camera.autofocus"
+24-->[:react-native-camera] F:\myproject\ReactNativeproject\CarApp\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:15:9-57
+25        android:required="false" />
+25-->[:react-native-camera] F:\myproject\ReactNativeproject\CarApp\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:16:9-33
+26    <uses-feature
+26-->[:react-native-biometrics] F:\myproject\ReactNativeproject\CarApp\node_modules\react-native-biometrics\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-13:36
+27        android:name="android.hardware.fingerprint"
+27-->[:react-native-biometrics] F:\myproject\ReactNativeproject\CarApp\node_modules\react-native-biometrics\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-52
+28        android:required="false" />
+28-->[:react-native-biometrics] F:\myproject\ReactNativeproject\CarApp\node_modules\react-native-biometrics\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:9-33
+29
+30    <application
+30-->F:\myproject\ReactNativeproject\CarApp\android\app\src\main\AndroidManifest.xml:11:5-30:19
+31        android:name="com.carapp.MainApplication"
+31-->F:\myproject\ReactNativeproject\CarApp\android\app\src\main\AndroidManifest.xml:12:7-38
+32        android:allowBackup="false"
+32-->F:\myproject\ReactNativeproject\CarApp\android\app\src\main\AndroidManifest.xml:16:7-34
+33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+33-->[androidx.core:core:1.1.0-rc01] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\0a24f66f30aa88e58514b4772733e5a7\core-1.1.0-rc01\AndroidManifest.xml:24:18-86
+34        android:debuggable="true"
+35        android:icon="@mipmap/ic_launcher"
+35-->F:\myproject\ReactNativeproject\CarApp\android\app\src\main\AndroidManifest.xml:14:7-41
+36        android:label="@string/app_name"
+36-->F:\myproject\ReactNativeproject\CarApp\android\app\src\main\AndroidManifest.xml:13:7-39
+37        android:roundIcon="@mipmap/ic_launcher_round"
+37-->F:\myproject\ReactNativeproject\CarApp\android\app\src\main\AndroidManifest.xml:15:7-52
+38        android:theme="@style/AppTheme"
+38-->F:\myproject\ReactNativeproject\CarApp\android\app\src\main\AndroidManifest.xml:17:7-38
+39        android:usesCleartextTraffic="true" >
+39-->F:\myproject\ReactNativeproject\CarApp\android\app\src\debug\AndroidManifest.xml:7:18-53
+40        <activity
+40-->F:\myproject\ReactNativeproject\CarApp\android\app\src\main\AndroidManifest.xml:18:7-28:18
+41            android:name="com.carapp.MainActivity"
+41-->F:\myproject\ReactNativeproject\CarApp\android\app\src\main\AndroidManifest.xml:19:9-37
+42            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+42-->F:\myproject\ReactNativeproject\CarApp\android\app\src\main\AndroidManifest.xml:21:9-79
+43            android:label="@string/app_name"
+43-->F:\myproject\ReactNativeproject\CarApp\android\app\src\main\AndroidManifest.xml:20:9-41
+44            android:windowSoftInputMode="adjustResize" >
+44-->F:\myproject\ReactNativeproject\CarApp\android\app\src\main\AndroidManifest.xml:22:9-51
+45            <intent-filter>
+45-->F:\myproject\ReactNativeproject\CarApp\android\app\src\main\AndroidManifest.xml:23:9-27:25
+46                <action android:name="android.intent.action.MAIN" />
+46-->F:\myproject\ReactNativeproject\CarApp\android\app\src\main\AndroidManifest.xml:24:13-65
+46-->F:\myproject\ReactNativeproject\CarApp\android\app\src\main\AndroidManifest.xml:24:21-62
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->F:\myproject\ReactNativeproject\CarApp\android\app\src\main\AndroidManifest.xml:25:13-73
+48-->F:\myproject\ReactNativeproject\CarApp\android\app\src\main\AndroidManifest.xml:25:23-70
+49
+50                <action android:name="android.intent.action.DOWNLOAD_COMPLETE" />
+50-->F:\myproject\ReactNativeproject\CarApp\android\app\src\main\AndroidManifest.xml:26:13-77
+50-->F:\myproject\ReactNativeproject\CarApp\android\app\src\main\AndroidManifest.xml:26:21-75
+51            </intent-filter>
+52        </activity>
+53        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+53-->F:\myproject\ReactNativeproject\CarApp\android\app\src\main\AndroidManifest.xml:29:7-84
+53-->F:\myproject\ReactNativeproject\CarApp\android\app\src\main\AndroidManifest.xml:29:17-81
+54
+55        <provider
+55-->[:react-native-image-picker] F:\myproject\ReactNativeproject\CarApp\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:9-18:20
+56            android:name="com.imagepicker.FileProvider"
+56-->[:react-native-image-picker] F:\myproject\ReactNativeproject\CarApp\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-56
+57            android:authorities="com.carapp.provider"
+57-->[:react-native-image-picker] F:\myproject\ReactNativeproject\CarApp\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-60
+58            android:exported="false"
+58-->[:react-native-image-picker] F:\myproject\ReactNativeproject\CarApp\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-37
+59            android:grantUriPermissions="true" >
+59-->[:react-native-image-picker] F:\myproject\ReactNativeproject\CarApp\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-47
+60            <meta-data
+60-->[:react-native-image-picker] F:\myproject\ReactNativeproject\CarApp\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-17:58
+61                android:name="android.support.FILE_PROVIDER_PATHS"
+61-->[:react-native-image-picker] F:\myproject\ReactNativeproject\CarApp\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:17-67
+62                android:resource="@xml/provider_paths" />
+62-->[:react-native-image-picker] F:\myproject\ReactNativeproject\CarApp\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:17-55
+63        </provider>
+64
+65        <activity
+65-->[com.google.firebase:firebase-auth:19.0.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\0f95d88ed5c5c9590bd232604f07dea3\firebase-auth-19.0.0\AndroidManifest.xml:24:9-31:50
+66            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+66-->[com.google.firebase:firebase-auth:19.0.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\0f95d88ed5c5c9590bd232604f07dea3\firebase-auth-19.0.0\AndroidManifest.xml:25:13-85
+67            android:excludeFromRecents="true"
+67-->[com.google.firebase:firebase-auth:19.0.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\0f95d88ed5c5c9590bd232604f07dea3\firebase-auth-19.0.0\AndroidManifest.xml:26:13-46
+68            android:exported="true"
+68-->[com.google.firebase:firebase-auth:19.0.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\0f95d88ed5c5c9590bd232604f07dea3\firebase-auth-19.0.0\AndroidManifest.xml:27:13-36
+69            android:launchMode="singleTask"
+69-->[com.google.firebase:firebase-auth:19.0.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\0f95d88ed5c5c9590bd232604f07dea3\firebase-auth-19.0.0\AndroidManifest.xml:28:13-44
+70            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+70-->[com.google.firebase:firebase-auth:19.0.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\0f95d88ed5c5c9590bd232604f07dea3\firebase-auth-19.0.0\AndroidManifest.xml:29:13-102
+71            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+71-->[com.google.firebase:firebase-auth:19.0.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\0f95d88ed5c5c9590bd232604f07dea3\firebase-auth-19.0.0\AndroidManifest.xml:30:13-72
+72
+73        <service
+73-->[com.google.firebase:firebase-auth:19.0.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\0f95d88ed5c5c9590bd232604f07dea3\firebase-auth-19.0.0\AndroidManifest.xml:33:9-39:19
+74            android:name="com.google.firebase.components.ComponentDiscoveryService"
+74-->[com.google.firebase:firebase-auth:19.0.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\0f95d88ed5c5c9590bd232604f07dea3\firebase-auth-19.0.0\AndroidManifest.xml:34:13-84
+75            android:exported="false" >
+75-->[com.google.firebase:firebase-auth:19.0.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\0f95d88ed5c5c9590bd232604f07dea3\firebase-auth-19.0.0\AndroidManifest.xml:35:13-37
+76            <meta-data
+76-->[com.google.firebase:firebase-auth:19.0.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\0f95d88ed5c5c9590bd232604f07dea3\firebase-auth-19.0.0\AndroidManifest.xml:36:13-38:85
+77                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+77-->[com.google.firebase:firebase-auth:19.0.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\0f95d88ed5c5c9590bd232604f07dea3\firebase-auth-19.0.0\AndroidManifest.xml:37:17-109
+78                android:value="com.google.firebase.components.ComponentRegistrar" />
+78-->[com.google.firebase:firebase-auth:19.0.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\0f95d88ed5c5c9590bd232604f07dea3\firebase-auth-19.0.0\AndroidManifest.xml:38:17-82
+79        </service>
+80
+81        <activity
+81-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\c8499f8320ecc1cfe5d3e5d6e485ec6d\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+82            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+82-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\c8499f8320ecc1cfe5d3e5d6e485ec6d\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+83            android:exported="false"
+83-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\c8499f8320ecc1cfe5d3e5d6e485ec6d\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+84            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+84-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\c8499f8320ecc1cfe5d3e5d6e485ec6d\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+85
+86        <provider
+86-->[com.google.firebase:firebase-common:19.0.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\38b9899ad2b97e3607a23ee05197f2d6\firebase-common-19.0.0\AndroidManifest.xml:12:9-16:39
+87            android:name="com.google.firebase.provider.FirebaseInitProvider"
+87-->[com.google.firebase:firebase-common:19.0.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\38b9899ad2b97e3607a23ee05197f2d6\firebase-common-19.0.0\AndroidManifest.xml:13:13-77
+88            android:authorities="com.carapp.firebaseinitprovider"
+88-->[com.google.firebase:firebase-common:19.0.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\38b9899ad2b97e3607a23ee05197f2d6\firebase-common-19.0.0\AndroidManifest.xml:14:13-72
+89            android:exported="false"
+89-->[com.google.firebase:firebase-common:19.0.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\38b9899ad2b97e3607a23ee05197f2d6\firebase-common-19.0.0\AndroidManifest.xml:15:13-37
+90            android:initOrder="100" />
+90-->[com.google.firebase:firebase-common:19.0.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\38b9899ad2b97e3607a23ee05197f2d6\firebase-common-19.0.0\AndroidManifest.xml:16:13-36
+91
+92        <meta-data
+92-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\6f41c1adae4875ec830dc285b0d14d6d\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+93            android:name="com.google.android.gms.version"
+93-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\6f41c1adae4875ec830dc285b0d14d6d\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+94            android:value="@integer/google_play_services_version" />
+94-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\6f41c1adae4875ec830dc285b0d14d6d\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+95    </application>
+96
+97</manifest>
