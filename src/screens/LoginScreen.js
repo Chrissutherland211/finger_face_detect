@@ -33,15 +33,16 @@ class LoginScreen extends React.Component {
   }
   goFacescreen = async () =>{
     const that = this;
-    let checkValue = await checkFinger(this.props.fingerdata.finger)
+    console.log("------login fingerdata ----",this.props.fingerdata.finger)
+    // let checkValue = await checkFinger(this.props.fingerdata.finger)
     console.log(this.props.fingerdata.finger)
     if(this.props.fingerdata.finger){
       // console.log(checkValue)
-      if(checkValue===true){        
+      // if(checkValue===true){        
         that.props.navigation.navigate('Face')
-      } else {
-        this.refs.toast.showTop('Your fingerpirnt did not registered. Please Try Again !');
-      }
+      // } else {
+      //   this.refs.toast.showTop('Your fingerpirnt did not registered. Please Try Again !');
+      // }
     } 
   }
 

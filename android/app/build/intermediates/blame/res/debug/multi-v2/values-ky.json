@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\myproject\\ReactNativeproject\\CarApp\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ky\\values-ky.xml",
+            "outputFile": "F:\\myproject\\ReactNativeproject\\Auth\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ky\\values-ky.xml",
             "map": [
                 {
                     "source": "C:\\Users\\BRIGHT\\.gradle\\caches\\transforms-2\\files-2.1\\6f41c1adae4875ec830dc285b0d14d6d\\jetified-play-services-basement-17.0.0\\res\\values-ky\\values.xml",

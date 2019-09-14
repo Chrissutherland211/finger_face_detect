@@ -1,4 +1,0 @@
-#Fri Sep 13 05:40:45 VLAT 2019
-base.0=F\:\\myproject\\ReactNativeproject\\CarApp\\android\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\out\\classes.dex
-path.0=classes.dex
-renamed.0=classes.dex

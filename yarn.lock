@@ -5874,11 +5874,6 @@ react-native-fetch-blob@^0.10.8:
     base-64 "0.1.0"
     glob "7.0.6"
 
-react-native-fingerprint-scanner@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/react-native-fingerprint-scanner/-/react-native-fingerprint-scanner-3.0.0.tgz#c1ddbef711ea2e599d7704bd8da37d64d24ccf9a"
-  integrity sha512-7hKCiluSxZxqhUV5hUndqriP91651QvSKOK87b4yFVqqBnYpeZV6rkrbz+sIW7u1zdvSb/z6zCVRqF4GbUUVtQ==
-
 react-native-gesture-handler@^1.4.1:
   version "1.4.1"
   resolved "https://registry.yarnpkg.com/react-native-gesture-handler/-/react-native-gesture-handler-1.4.1.tgz#c38d9e57637b95e221722a79f2bafac62e3aeb21"
@@ -5911,6 +5906,13 @@ react-native-keyboard-aware-view@^0.0.14:
   version "0.0.14"
   resolved "https://registry.yarnpkg.com/react-native-keyboard-aware-view/-/react-native-keyboard-aware-view-0.0.14.tgz#4cb0079c97a3f85172e451267e333db95cc70372"
   integrity sha1-TLAHnJej+FFy5FEmfjM9uVzHA3I=
+
+react-native-loading-spinner-overlay@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/react-native-loading-spinner-overlay/-/react-native-loading-spinner-overlay-1.0.1.tgz#07f85a072b6f7d05b8749668cd626df4cc330347"
+  integrity sha512-njZZWs+cgyq6Ni7tkYEowMmuAuHVljuH4CqTWA0plNOfSzZhEcrW209y7WcgHjRWz0RvvEYF5oWGT8DWtTq8bA==
+  dependencies:
+    prop-types "^15.6.2"
 
 react-native-phone-input@^0.2.4:
   version "0.2.4"

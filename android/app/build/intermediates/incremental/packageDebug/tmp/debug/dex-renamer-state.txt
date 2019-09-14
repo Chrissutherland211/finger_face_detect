@@ -1,4 +1,4 @@
-#Fri Sep 13 05:48:17 VLAT 2019
-base.0=F\:\\myproject\\ReactNativeproject\\CarApp\\android\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+#Sat Sep 14 14:36:40 VLAT 2019
+base.0=F\:\\myproject\\ReactNativeproject\\Auth\\android\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

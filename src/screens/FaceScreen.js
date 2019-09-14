@@ -10,6 +10,8 @@ import { bindActionCreators } from 'redux';
 import Biometrics from 'react-native-biometrics';
 import ImagePicker from 'react-native-image-picker';
 import {detect, identify, checkFace} from '../api/API';
+import Toast from 'react-native-whc-toast';
+
 const screenWidth = Math.round(Dimensions.get('window').width);
 
 class FaceScreen extends React.Component {
@@ -20,6 +22,8 @@ class FaceScreen extends React.Component {
         username: undefined,
         userImages: [],
         personGroupId:"developstargroups", 
+        times:3,
+        showVerify:true,
     }
   }
   checkFace = () =>{
@@ -45,18 +49,35 @@ class FaceScreen extends React.Component {
       }
       console.log('-----------------detect ids---------------'+faceIds)
       let res = await identify(this.state.personGroupId, faceIds)
-      for (const persons of res){
-        for(const persion of persons.candidates){
-          let ress = await checkFace(persion.personId)
-          this.setState({checkfaceStatus:ress})
-          if(ress===true){
-            this.props.navigation.navigate('Detail')
+      let times = this.state.times;
+      if(res===false){
+        this.setState({times:times-1})
+        this.refs.toast.showTop('Failed Your Face Verify!');
+        console.log(this.state.times)
+        if(this.state.times == 0){          
+          this.setState({showVerify:false})
+        }
+      } else {
+        for (const persons of res){
+          for(const persion of persons.candidates){
+            let ress = await checkFace(persion.personId)
+            this.setState({checkfaceStatus:ress})
+            console.log(ress)
+            if(ress===true){
+              this.props.navigation.navigate('Detail')
+            } else {
+              this.setState({times:times-1})
+              this.refs.toast.showTop('Failed Your Face Verify!');
+              if(this.state.times == 0){                
+                this.setState({showVerify:false})
+              }
+            }
           }
-        }
-        if(persons.candidates.length<=0){
-          return false;
-        }
-      }      
+          if(persons.candidates.length<=0){
+            return false;
+          }
+        }   
+      }         
     }    
   };
     render() { 
@@ -80,7 +101,15 @@ class FaceScreen extends React.Component {
                       <Text style={{fontSize:30, fontWeight:'bold'}}>
                           Face Check
                       </Text>
-                  </View>                           
+                  </View>
+                  <Toast ref="toast"/>
+                  <View style={{flex:1,margin:10, alignItems: 'center', justifyContent: 'center'}}>                            
+                      
+                        <Text style={{color:'white'}}>{this.state.times}</Text>
+                        <Text style={{fontSize:60, margin:10, color:'red'}}>{this.state.times}</Text>                   
+                  
+                  </View>  
+                  {this.state.showVerify===true&&                         
                   <View style={{flex:3,margin:10, alignItems: 'center', justifyContent: 'center'}}>                            
                       <TouchableOpacity style={{ height: 60,width:screenWidth/1.2, marginTop: 10, backgroundColor:'black',alignItems: 'center', justifyContent: 'center', borderRadius:5 }}
                           onPress={() => {                             
@@ -90,16 +119,20 @@ class FaceScreen extends React.Component {
                         <Text style={{color:'white'}}>Face Detect</Text>
                       </TouchableOpacity>
                   
-                  </View>                                         
-                </View>                
-                <View style={{flexDirection:'row'}}>
-                    <Text style={{fontSize:15, margin:10}}>Create new account?</Text>
-                    <TouchableOpacity
-                    onPress={() => {this.props.navigation.navigate('SignUp');}}
-                    >
-                        <Text style={{fontSize:15, margin:10, color:'red'}}>Sign Up</Text> 
-                    </TouchableOpacity>     
-                </View>     
+                  </View>
+                  }
+                                                             
+                </View>
+                
+                  <View style={{flexDirection:'row'}}>
+                      <Text style={{fontSize:15, margin:10}}>Create new account?</Text>
+                      <TouchableOpacity
+                      onPress={() => {this.props.navigation.navigate('SignUp');}}
+                      
+                      >
+                          <Text style={{fontSize:15, margin:10, color:'red'}}>Sign Up</Text> 
+                      </TouchableOpacity>     
+                  </View>          
             </View>
           </ScrollView>
         </KeyboardAwareView>

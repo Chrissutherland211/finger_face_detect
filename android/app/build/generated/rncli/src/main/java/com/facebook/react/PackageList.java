@@ -21,8 +21,6 @@ import org.reactnative.camera.RNCameraPackage;
 import com.kishanjvaghela.cardview.RNCardViewPackage;
 // react-native-fetch-blob
 import com.RNFetchBlob.RNFetchBlobPackage;
-// react-native-fingerprint-scanner
-import com.hieuvp.fingerprint.ReactNativeFingerprintScannerPackage;
 // react-native-gesture-handler
 import com.swmansion.gesturehandler.react.RNGestureHandlerPackage;
 // react-native-image-picker
@@ -72,7 +70,6 @@ public class PackageList {
       new RNCameraPackage(),
       new RNCardViewPackage(),
       new RNFetchBlobPackage(),
-      new ReactNativeFingerprintScannerPackage(),
       new RNGestureHandlerPackage(),
       new ImagePickerPackage(),
       new ReanimatedPackage(),

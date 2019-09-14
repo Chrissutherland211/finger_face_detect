@@ -40,7 +40,6 @@ target 'CarApp' do
 
   pod 'TouchID', :path => '../node_modules/react-native-touch-id'
 
-  pod 'react-native-fingerprint-scanner', :path => '../node_modules/react-native-fingerprint-scanner'
 
   pod 'react-native-biometrics', :path => '../node_modules/react-native-biometrics'
 

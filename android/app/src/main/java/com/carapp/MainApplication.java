@@ -11,7 +11,6 @@ import com.RNFetchBlob.RNFetchBlobPackage;
 import org.reactnative.camera.RNCameraPackage;
 import com.imagepicker.ImagePickerPackage;
 import com.rnbiometrics.ReactNativeBiometricsPackage;
-import com.hieuvp.fingerprint.ReactNativeFingerprintScannerPackage;
 import com.rnfingerprint.FingerprintAuthPackage;
 import com.oblador.vectoricons.VectorIconsPackage;
 import com.kishanjvaghela.cardview.RNCardViewPackage;
@@ -21,7 +20,7 @@ import com.swmansion.reanimated.ReanimatedPackage;
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
 import com.facebook.soloader.SoLoader;
-import com.hieuvp.fingerprint.ReactNativeFingerprintScannerPackage;
+
 
 
 import java.util.List;

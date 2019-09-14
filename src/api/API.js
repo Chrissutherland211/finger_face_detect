@@ -84,12 +84,13 @@ export async function  detect(image){
     return await JSON.parse(response.data);    
 }
 export async function identify(personGroupId, faceIds) {
+    if(faceIds.length>0){
         const faceUrl = Config.end_point + 'identify'
         const params = {            
             PersonGroupId: personGroupId,
             faceIds: faceIds            
         };
-    console.log(faceUrl,params)
+        console.log(faceUrl,params)
         const res =  await axios({
             method: 'post',
             url: faceUrl,
@@ -97,7 +98,12 @@ export async function identify(personGroupId, faceIds) {
             data: JSON.stringify(params)
         }); 
         console.log(res.data) 
-    return await res.data;      
+    return await res.data;     
+    } else {
+        return false;
+    }
+
+         
 
 }
 export async function register(email, name, password, finger, face){

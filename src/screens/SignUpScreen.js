@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, View, Text, Dimensions, TouchableOpacity,TouchableWithoutFeedback, ScrollView,Keyboard } from 'react-native';
+import { Button, View, Text, Dimensions, TouchableOpacity,StyleSheet, ScrollView,Keyboard } from 'react-native';
 import CardView from 'react-native-cardview';
 import { Input } from 'react-native-elements';
 import Icon from 'react-native-vector-icons/Entypo';
@@ -11,6 +11,8 @@ import * as firebase from "firebase";
 import Biometrics from 'react-native-biometrics';
 import {createPerson,register} from './../api/API';
 import Toast from 'react-native-whc-toast';
+import Spinner from 'react-native-loading-spinner-overlay';
+
 
 const screenWidth = Math.round(Dimensions.get('window').width);
 
@@ -38,6 +40,7 @@ class SignupScreen extends React.Component {
             password:'',
             confirmPassword:'',
             confirmerror:'',
+            loading: false,
         }
       }
     componentDidMount(){
@@ -55,6 +58,7 @@ class SignupScreen extends React.Component {
         })
     }
     SignUp = async (email, personName, image)=>{ 
+        this.setState({loading:true});
         if(!this.state.email){
             this.refs.toast.showTop('Please insert email !');
         } else if(!this.state.personName){
@@ -65,13 +69,24 @@ class SignupScreen extends React.Component {
             this.refs.toast.showTop('Please Confirm Password !');
         } else if(this.state.confirmerror){
             this.refs.toast.showTop('Please Match Password !');
+        } else if(!this.props.fingerdata.finger){
+            this.refs.toast.showTop('Please Set Finger !');
+        } else if(!this.props.fingerdata.image){
+            this.refs.toast.showTop('Please Set Face !');
         } else {
             res = await createPerson(this.state.personGroupId,personName,image);
             let personId= res.data.personId;        
             this.props.setPersonId(personId); 
             console.log('-------------------',personId, this.props.fingerdata.personId)
             let response = await register(email, personName, this.state.password, this.props.fingerdata.finger, this.props.fingerdata.personId);
-
+            
+            this.setState({loading:false});
+            console.log(response.data)
+            if(response.data==='true'){
+                this.refs.toast.showTop('Successfully Register!');
+            } else {
+                this.refs.toast.showTop('Failed Register!');
+            }
         }   
         
           
@@ -104,7 +119,7 @@ class SignupScreen extends React.Component {
         .then((publicKey) => {
             console.log(publicKey)
             this.props.setFingerdata(publicKey);
-            alert(this.props.fingerdata.finger);
+            // alert(this.props.fingerdata.finger);
             // sendPublicKeyToServer(publicKey)
         })
     }
@@ -127,6 +142,14 @@ class SignupScreen extends React.Component {
             <View  style={{ padding: 24}}>  
 
                 <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+                <Spinner
+                    //visibility of Overlay Loading Spinner
+                    visible={this.state.loading}
+                    //Text with the Spinner 
+                    textContent={'Loading...'}
+                    //Text style of the Spinner Text
+                    textStyle={styles.spinnerTextStyle}
+                />
                     <Toast ref="toast"/>
                         <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center', width:screenWidth/1.2}}>                        
                             <View style={{flex:3, alignItems: 'center', justifyContent: 'center'}}>
@@ -231,6 +254,19 @@ class SignupScreen extends React.Component {
       );
     }
   }
+  const styles = StyleSheet.create({
+    container: {
+      flex: 1,
+      justifyContent: 'center',
+      textAlign: 'center',
+      paddingTop: 30,
+      backgroundColor: '#ecf0f1',
+      padding: 8,
+    },
+    spinnerTextStyle: {
+      color: '#FFF',
+    },
+  });
   function mapStateToProps(state) {
     return {
       fingerdata: state.fingerdata    

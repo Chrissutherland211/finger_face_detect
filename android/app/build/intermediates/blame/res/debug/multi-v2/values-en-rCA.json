@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\myproject\\ReactNativeproject\\CarApp\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rCA\\values-en-rCA.xml",
+            "outputFile": "F:\\myproject\\ReactNativeproject\\Auth\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rCA\\values-en-rCA.xml",
             "map": [
                 {
                     "source": "C:\\Users\\BRIGHT\\.gradle\\caches\\transforms-2\\files-2.1\\0a24f66f30aa88e58514b4772733e5a7\\core-1.1.0-rc01\\res\\values-en-rCA\\values-en-rCA.xml",
