@@ -66,7 +66,7 @@ class LoginScreen extends React.Component {
                             
                             <View style={{flex:3, alignItems: 'center', justifyContent: 'center'}}>
                                 <Text style={{fontSize:30, fontWeight:'bold'}}>
-                                    Fingerprint Check
+                                    Login Cloud Server
                                 </Text>
                             </View>
                             
@@ -87,6 +87,7 @@ class LoginScreen extends React.Component {
                     <Text style={{fontSize:15, margin:10}}>Create new account?</Text>
                     <TouchableOpacity
                     onPress={() => {this.props.navigation.navigate('SignUp');}}
+                    // onPress={() => {this.props.navigation.navigate('UserLogin');}}
                     >
                         <Text style={{fontSize:15, margin:10, color:'red'}}>Sign Up</Text> 
                     </TouchableOpacity>     

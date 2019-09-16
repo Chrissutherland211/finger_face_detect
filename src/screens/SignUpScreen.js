@@ -61,18 +61,25 @@ class SignupScreen extends React.Component {
         this.setState({loading:true});
         if(!this.state.email){
             this.refs.toast.showTop('Please insert email !');
+            this.setState({loading:false});
         } else if(!this.state.personName){
             this.refs.toast.showTop('Please insert Person Name !');
+            this.setState({loading:false});
         } else if(!this.state.password){
             this.refs.toast.showTop('Please insert Password !');
+            this.setState({loading:false});
         } else if(!this.state.confirmPassword){
             this.refs.toast.showTop('Please Confirm Password !');
+            this.setState({loading:false});
         } else if(this.state.confirmerror){
             this.refs.toast.showTop('Please Match Password !');
+            this.setState({loading:false});
         } else if(!this.props.fingerdata.finger){
             this.refs.toast.showTop('Please Set Finger !');
+            this.setState({loading:false});
         } else if(!this.props.fingerdata.image){
             this.refs.toast.showTop('Please Set Face !');
+            this.setState({loading:false});
         } else {
             res = await createPerson(this.state.personGroupId,personName,image);
             let personId= res.data.personId;        
@@ -85,7 +92,7 @@ class SignupScreen extends React.Component {
             if(response.data==='true'){
                 this.refs.toast.showTop('Successfully Register!');
             } else {
-                this.refs.toast.showTop('Failed Register!');
+                this.refs.toast.showTop('Failed Register! Please try with other email and password has to be 8 digits more.');
             }
         }   
         

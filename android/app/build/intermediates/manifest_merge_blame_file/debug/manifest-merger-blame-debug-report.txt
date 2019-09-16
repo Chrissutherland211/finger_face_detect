@@ -95,78 +95,95 @@
 51-->F:\myproject\ReactNativeproject\Auth\android\app\src\main\AndroidManifest.xml:29:17-81
 52
 53        <provider
-53-->[:react-native-image-picker] F:\myproject\ReactNativeproject\Auth\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:9-18:20
-54            android:name="com.imagepicker.FileProvider"
-54-->[:react-native-image-picker] F:\myproject\ReactNativeproject\Auth\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-56
-55            android:authorities="com.carapp.provider"
-55-->[:react-native-image-picker] F:\myproject\ReactNativeproject\Auth\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-60
+53-->[:react-native-webview] F:\myproject\ReactNativeproject\Auth\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-20:20
+54            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+54-->[:react-native-webview] F:\myproject\ReactNativeproject\Auth\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-83
+55            android:authorities="com.carapp.fileprovider"
+55-->[:react-native-webview] F:\myproject\ReactNativeproject\Auth\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-64
 56            android:exported="false"
-56-->[:react-native-image-picker] F:\myproject\ReactNativeproject\Auth\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-37
+56-->[:react-native-webview] F:\myproject\ReactNativeproject\Auth\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-37
 57            android:grantUriPermissions="true" >
-57-->[:react-native-image-picker] F:\myproject\ReactNativeproject\Auth\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-47
+57-->[:react-native-webview] F:\myproject\ReactNativeproject\Auth\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-47
 58            <meta-data
-58-->[:react-native-image-picker] F:\myproject\ReactNativeproject\Auth\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-17:58
+58-->[:react-native-webview] F:\myproject\ReactNativeproject\Auth\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-19:63
 59                android:name="android.support.FILE_PROVIDER_PATHS"
-59-->[:react-native-image-picker] F:\myproject\ReactNativeproject\Auth\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:17-67
-60                android:resource="@xml/provider_paths" />
-60-->[:react-native-image-picker] F:\myproject\ReactNativeproject\Auth\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:17-55
+59-->[:react-native-webview] F:\myproject\ReactNativeproject\Auth\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:17-67
+60                android:resource="@xml/file_provider_paths" />
+60-->[:react-native-webview] F:\myproject\ReactNativeproject\Auth\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:17-60
 61        </provider>
-62
-63        <activity
-63-->[com.google.firebase:firebase-auth:19.0.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\0f95d88ed5c5c9590bd232604f07dea3\firebase-auth-19.0.0\AndroidManifest.xml:24:9-31:50
-64            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
-64-->[com.google.firebase:firebase-auth:19.0.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\0f95d88ed5c5c9590bd232604f07dea3\firebase-auth-19.0.0\AndroidManifest.xml:25:13-85
-65            android:excludeFromRecents="true"
-65-->[com.google.firebase:firebase-auth:19.0.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\0f95d88ed5c5c9590bd232604f07dea3\firebase-auth-19.0.0\AndroidManifest.xml:26:13-46
-66            android:exported="true"
-66-->[com.google.firebase:firebase-auth:19.0.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\0f95d88ed5c5c9590bd232604f07dea3\firebase-auth-19.0.0\AndroidManifest.xml:27:13-36
-67            android:launchMode="singleTask"
-67-->[com.google.firebase:firebase-auth:19.0.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\0f95d88ed5c5c9590bd232604f07dea3\firebase-auth-19.0.0\AndroidManifest.xml:28:13-44
-68            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
-68-->[com.google.firebase:firebase-auth:19.0.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\0f95d88ed5c5c9590bd232604f07dea3\firebase-auth-19.0.0\AndroidManifest.xml:29:13-102
-69            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-69-->[com.google.firebase:firebase-auth:19.0.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\0f95d88ed5c5c9590bd232604f07dea3\firebase-auth-19.0.0\AndroidManifest.xml:30:13-72
-70
-71        <service
-71-->[com.google.firebase:firebase-auth:19.0.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\0f95d88ed5c5c9590bd232604f07dea3\firebase-auth-19.0.0\AndroidManifest.xml:33:9-39:19
-72            android:name="com.google.firebase.components.ComponentDiscoveryService"
-72-->[com.google.firebase:firebase-auth:19.0.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\0f95d88ed5c5c9590bd232604f07dea3\firebase-auth-19.0.0\AndroidManifest.xml:34:13-84
-73            android:exported="false" >
-73-->[com.google.firebase:firebase-auth:19.0.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\0f95d88ed5c5c9590bd232604f07dea3\firebase-auth-19.0.0\AndroidManifest.xml:35:13-37
-74            <meta-data
-74-->[com.google.firebase:firebase-auth:19.0.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\0f95d88ed5c5c9590bd232604f07dea3\firebase-auth-19.0.0\AndroidManifest.xml:36:13-38:85
-75                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-75-->[com.google.firebase:firebase-auth:19.0.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\0f95d88ed5c5c9590bd232604f07dea3\firebase-auth-19.0.0\AndroidManifest.xml:37:17-109
-76                android:value="com.google.firebase.components.ComponentRegistrar" />
-76-->[com.google.firebase:firebase-auth:19.0.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\0f95d88ed5c5c9590bd232604f07dea3\firebase-auth-19.0.0\AndroidManifest.xml:38:17-82
-77        </service>
-78
-79        <activity
-79-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\c8499f8320ecc1cfe5d3e5d6e485ec6d\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
-80            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-80-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\c8499f8320ecc1cfe5d3e5d6e485ec6d\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
-81            android:exported="false"
-81-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\c8499f8320ecc1cfe5d3e5d6e485ec6d\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
-82            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-82-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\c8499f8320ecc1cfe5d3e5d6e485ec6d\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
-83
-84        <provider
-84-->[com.google.firebase:firebase-common:19.0.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\38b9899ad2b97e3607a23ee05197f2d6\firebase-common-19.0.0\AndroidManifest.xml:12:9-16:39
-85            android:name="com.google.firebase.provider.FirebaseInitProvider"
-85-->[com.google.firebase:firebase-common:19.0.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\38b9899ad2b97e3607a23ee05197f2d6\firebase-common-19.0.0\AndroidManifest.xml:13:13-77
-86            android:authorities="com.carapp.firebaseinitprovider"
-86-->[com.google.firebase:firebase-common:19.0.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\38b9899ad2b97e3607a23ee05197f2d6\firebase-common-19.0.0\AndroidManifest.xml:14:13-72
-87            android:exported="false"
-87-->[com.google.firebase:firebase-common:19.0.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\38b9899ad2b97e3607a23ee05197f2d6\firebase-common-19.0.0\AndroidManifest.xml:15:13-37
-88            android:initOrder="100" />
-88-->[com.google.firebase:firebase-common:19.0.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\38b9899ad2b97e3607a23ee05197f2d6\firebase-common-19.0.0\AndroidManifest.xml:16:13-36
-89
-90        <meta-data
-90-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\6f41c1adae4875ec830dc285b0d14d6d\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
-91            android:name="com.google.android.gms.version"
-91-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\6f41c1adae4875ec830dc285b0d14d6d\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
-92            android:value="@integer/google_play_services_version" />
-92-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\6f41c1adae4875ec830dc285b0d14d6d\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
-93    </application>
-94
-95</manifest>
+62        <provider
+62-->[:react-native-image-picker] F:\myproject\ReactNativeproject\Auth\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:9-18:20
+63            android:name="com.imagepicker.FileProvider"
+63-->[:react-native-image-picker] F:\myproject\ReactNativeproject\Auth\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-56
+64            android:authorities="com.carapp.provider"
+64-->[:react-native-image-picker] F:\myproject\ReactNativeproject\Auth\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-60
+65            android:exported="false"
+65-->[:react-native-image-picker] F:\myproject\ReactNativeproject\Auth\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-37
+66            android:grantUriPermissions="true" >
+66-->[:react-native-image-picker] F:\myproject\ReactNativeproject\Auth\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-47
+67            <meta-data
+67-->[:react-native-webview] F:\myproject\ReactNativeproject\Auth\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-19:63
+68                android:name="android.support.FILE_PROVIDER_PATHS"
+68-->[:react-native-webview] F:\myproject\ReactNativeproject\Auth\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:17-67
+69                android:resource="@xml/provider_paths" />
+69-->[:react-native-webview] F:\myproject\ReactNativeproject\Auth\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:17-60
+70        </provider>
+71
+72        <activity
+72-->[com.google.firebase:firebase-auth:19.0.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\0f95d88ed5c5c9590bd232604f07dea3\firebase-auth-19.0.0\AndroidManifest.xml:24:9-31:50
+73            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+73-->[com.google.firebase:firebase-auth:19.0.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\0f95d88ed5c5c9590bd232604f07dea3\firebase-auth-19.0.0\AndroidManifest.xml:25:13-85
+74            android:excludeFromRecents="true"
+74-->[com.google.firebase:firebase-auth:19.0.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\0f95d88ed5c5c9590bd232604f07dea3\firebase-auth-19.0.0\AndroidManifest.xml:26:13-46
+75            android:exported="true"
+75-->[com.google.firebase:firebase-auth:19.0.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\0f95d88ed5c5c9590bd232604f07dea3\firebase-auth-19.0.0\AndroidManifest.xml:27:13-36
+76            android:launchMode="singleTask"
+76-->[com.google.firebase:firebase-auth:19.0.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\0f95d88ed5c5c9590bd232604f07dea3\firebase-auth-19.0.0\AndroidManifest.xml:28:13-44
+77            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+77-->[com.google.firebase:firebase-auth:19.0.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\0f95d88ed5c5c9590bd232604f07dea3\firebase-auth-19.0.0\AndroidManifest.xml:29:13-102
+78            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+78-->[com.google.firebase:firebase-auth:19.0.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\0f95d88ed5c5c9590bd232604f07dea3\firebase-auth-19.0.0\AndroidManifest.xml:30:13-72
+79
+80        <service
+80-->[com.google.firebase:firebase-auth:19.0.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\0f95d88ed5c5c9590bd232604f07dea3\firebase-auth-19.0.0\AndroidManifest.xml:33:9-39:19
+81            android:name="com.google.firebase.components.ComponentDiscoveryService"
+81-->[com.google.firebase:firebase-auth:19.0.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\0f95d88ed5c5c9590bd232604f07dea3\firebase-auth-19.0.0\AndroidManifest.xml:34:13-84
+82            android:exported="false" >
+82-->[com.google.firebase:firebase-auth:19.0.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\0f95d88ed5c5c9590bd232604f07dea3\firebase-auth-19.0.0\AndroidManifest.xml:35:13-37
+83            <meta-data
+83-->[com.google.firebase:firebase-auth:19.0.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\0f95d88ed5c5c9590bd232604f07dea3\firebase-auth-19.0.0\AndroidManifest.xml:36:13-38:85
+84                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+84-->[com.google.firebase:firebase-auth:19.0.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\0f95d88ed5c5c9590bd232604f07dea3\firebase-auth-19.0.0\AndroidManifest.xml:37:17-109
+85                android:value="com.google.firebase.components.ComponentRegistrar" />
+85-->[com.google.firebase:firebase-auth:19.0.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\0f95d88ed5c5c9590bd232604f07dea3\firebase-auth-19.0.0\AndroidManifest.xml:38:17-82
+86        </service>
+87
+88        <activity
+88-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\c8499f8320ecc1cfe5d3e5d6e485ec6d\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+89            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+89-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\c8499f8320ecc1cfe5d3e5d6e485ec6d\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+90            android:exported="false"
+90-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\c8499f8320ecc1cfe5d3e5d6e485ec6d\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+91            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+91-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\c8499f8320ecc1cfe5d3e5d6e485ec6d\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+92
+93        <provider
+93-->[com.google.firebase:firebase-common:19.0.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\38b9899ad2b97e3607a23ee05197f2d6\firebase-common-19.0.0\AndroidManifest.xml:12:9-16:39
+94            android:name="com.google.firebase.provider.FirebaseInitProvider"
+94-->[com.google.firebase:firebase-common:19.0.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\38b9899ad2b97e3607a23ee05197f2d6\firebase-common-19.0.0\AndroidManifest.xml:13:13-77
+95            android:authorities="com.carapp.firebaseinitprovider"
+95-->[com.google.firebase:firebase-common:19.0.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\38b9899ad2b97e3607a23ee05197f2d6\firebase-common-19.0.0\AndroidManifest.xml:14:13-72
+96            android:exported="false"
+96-->[com.google.firebase:firebase-common:19.0.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\38b9899ad2b97e3607a23ee05197f2d6\firebase-common-19.0.0\AndroidManifest.xml:15:13-37
+97            android:initOrder="100" />
+97-->[com.google.firebase:firebase-common:19.0.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\38b9899ad2b97e3607a23ee05197f2d6\firebase-common-19.0.0\AndroidManifest.xml:16:13-36
+98
+99        <meta-data
+99-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\6f41c1adae4875ec830dc285b0d14d6d\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+100            android:name="com.google.android.gms.version"
+100-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\6f41c1adae4875ec830dc285b0d14d6d\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+101            android:value="@integer/google_play_services_version" />
+101-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\6f41c1adae4875ec830dc285b0d14d6d\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+102    </application>
+103
+104</manifest>

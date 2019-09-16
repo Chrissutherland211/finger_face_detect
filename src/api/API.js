@@ -125,6 +125,9 @@ export async function register(email, name, password, finger, face){
         url: backUrl,
         headers: backend_headers,
         data: JSON.stringify(params)
+    }).catch(err=>{
+        console.log(JSON.parse(JSON.stringify({data:false})))
+        return JSON.parse(JSON.stringify({data:false}));
     });
 
     console.log("++++++++register++++++++",res.data)
@@ -158,5 +161,49 @@ export async function checkFace(facedata){
         data: JSON.stringify(params)
     });
     console.log('--------check finger---------', res.data.data)
+    return await res.data.data
+}
+
+export async function sendEmail(email){
+    console.log(email)
+    const backUrl = Config.backend_end_point + '/api/sendemail';
+    const params = {
+        "email" : email        
+    }
+    console.log(backUrl,backend_headers,JSON.stringify(params))
+    const res =  await axios({
+        method: 'post',
+        url: backUrl,
+        headers: backend_headers,
+        data: JSON.stringify(params)
+    }).catch(error => {
+        console.log('------------------',error.message);
+      });
+    console.log('--------sendEmail---------', res.data.data)
+
+      if(res.data.data){
+          return await res.data.data;
+      } else {
+          return await false
+      }
+    // return await res.data.data
+}
+
+export async function Login(name, password){
+    const backUrl = Config.backend_end_point + '/api/login';
+    const params = {
+        "name" : name,
+        "password" : password        
+    }
+    console.log(backUrl,backend_headers,JSON.stringify(params))
+    const res =  await axios({
+        method: 'post',
+        url: backUrl,
+        headers: backend_headers,
+        data: JSON.stringify(params)
+    }).catch(error=>{
+        return false;
+    });
+    console.log('--------check login---------', res.data.data)
     return await res.data.data
 }

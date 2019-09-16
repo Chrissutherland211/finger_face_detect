@@ -9,6 +9,9 @@ import SplashScreen from './screens/SplashScreen';
 import CameraScreen from './screens/CameraScreen';
 import FaceScreen from './screens/FaceScreen';
 import DetectCameraScreen from './screens/DetectCameraScreen';
+import UserLoginScreen from './screens/UserLoginScreen';
+import ForgotPasswordScreen from './screens/ForgotPasswordScreen';
+
 const MainStack = createDrawerNavigator(
     {    
         Details: {
@@ -41,6 +44,14 @@ const drawerScreens = createStackNavigator({
     },
     DetectCamera:{
         screen: DetectCameraScreen,
+        navigationOptions: { header: null }
+    },
+    UserLogin:{
+        screen: UserLoginScreen,
+        navigationOptions: { header: null }
+    },
+    ForgotPassword:{
+        screen: ForgotPasswordScreen,
         navigationOptions: { header: null }
     }
 

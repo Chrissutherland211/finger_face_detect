@@ -5,13 +5,14 @@ INJECTED from F:\myproject\ReactNativeproject\Auth\android\app\src\main\AndroidM
 INJECTED from F:\myproject\ReactNativeproject\Auth\android\app\src\main\AndroidManifest.xml:1:1-32:12
 INJECTED from F:\myproject\ReactNativeproject\Auth\android\app\src\main\AndroidManifest.xml:1:1-32:12
 MERGED from F:\myproject\ReactNativeproject\Auth\android\app\src\main\AndroidManifest.xml:1:1-32:12
-MERGED from [:react-native-cardview] F:\myproject\ReactNativeproject\Auth\node_modules\react-native-cardview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
-MERGED from [:react-native-vector-icons] F:\myproject\ReactNativeproject\Auth\node_modules\react-native-vector-icons\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-webview] F:\myproject\ReactNativeproject\Auth\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-23:12
 MERGED from [:react-native-fetch-blob] F:\myproject\ReactNativeproject\Auth\node_modules\react-native-fetch-blob\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-14:12
 MERGED from [:react-native-camera] F:\myproject\ReactNativeproject\Auth\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:2:1-18:12
 MERGED from [:react-native-image-picker] F:\myproject\ReactNativeproject\Auth\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-21:12
 MERGED from [:react-native-biometrics] F:\myproject\ReactNativeproject\Auth\node_modules\react-native-biometrics\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-15:12
 MERGED from [:react-native-touch-id] F:\myproject\ReactNativeproject\Auth\node_modules\react-native-touch-id\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-13:12
+MERGED from [:react-native-vector-icons] F:\myproject\ReactNativeproject\Auth\node_modules\react-native-vector-icons\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-cardview] F:\myproject\ReactNativeproject\Auth\node_modules\react-native-cardview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-screens] F:\myproject\ReactNativeproject\Auth\node_modules\react-native-screens\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-gesture-handler] F:\myproject\ReactNativeproject\Auth\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-reanimated] F:\myproject\ReactNativeproject\Auth\node_modules\react-native-reanimated\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
@@ -22,9 +23,9 @@ MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\BRIGHT\.grad
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0-alpha02] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\eda7a8259a25e6374210ecf1cbedb00b\swiperefreshlayout-1.1.0-alpha02\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-auth:19.0.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\0f95d88ed5c5c9590bd232604f07dea3\firebase-auth-19.0.0\AndroidManifest.xml:17:1-42:12
 MERGED from [org.webkit:android-jsc:r245459] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\6224978c44c9db0c1e30902cf2f4a183\android-jsc-r245459\AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\ccc4f60e4549c263b614feec2a027fa2\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-vision:17.0.2] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\1cdc90bc355839784d313736b30109a2\play-services-vision-17.0.2\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\ae8b971b40c132101f87c0e7d5e73037\exifinterface-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\ccc4f60e4549c263b614feec2a027fa2\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.transition:transition:1.0.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\402e2fb3baa5e6ca3b4a0d7ccbd7cd5b\transition-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\a75037d1d74cdf90850f6be7589b08d1\firebase-auth-interop-18.0.0\AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\e6f8e3ef4274ae286f55087d76800c91\jetified-play-services-vision-common-17.0.2\AndroidManifest.xml:2:1-9:12
@@ -127,6 +128,8 @@ application
 ADDED from F:\myproject\ReactNativeproject\Auth\android\app\src\main\AndroidManifest.xml:11:5-30:19
 MERGED from F:\myproject\ReactNativeproject\Auth\android\app\src\main\AndroidManifest.xml:11:5-30:19
 MERGED from F:\myproject\ReactNativeproject\Auth\android\app\src\main\AndroidManifest.xml:11:5-30:19
+MERGED from [:react-native-webview] F:\myproject\ReactNativeproject\Auth\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-21:19
+MERGED from [:react-native-webview] F:\myproject\ReactNativeproject\Auth\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-21:19
 MERGED from [:react-native-fetch-blob] F:\myproject\ReactNativeproject\Auth\node_modules\react-native-fetch-blob\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-12:19
 MERGED from [:react-native-fetch-blob] F:\myproject\ReactNativeproject\Auth\node_modules\react-native-fetch-blob\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-12:19
 MERGED from [:react-native-image-picker] F:\myproject\ReactNativeproject\Auth\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-19:19
@@ -217,10 +220,8 @@ uses-sdk
 INJECTED from F:\myproject\ReactNativeproject\Auth\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from F:\myproject\ReactNativeproject\Auth\android\app\src\main\AndroidManifest.xml
 INJECTED from F:\myproject\ReactNativeproject\Auth\android\app\src\main\AndroidManifest.xml
-MERGED from [:react-native-cardview] F:\myproject\ReactNativeproject\Auth\node_modules\react-native-cardview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-cardview] F:\myproject\ReactNativeproject\Auth\node_modules\react-native-cardview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-vector-icons] F:\myproject\ReactNativeproject\Auth\node_modules\react-native-vector-icons\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-vector-icons] F:\myproject\ReactNativeproject\Auth\node_modules\react-native-vector-icons\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-webview] F:\myproject\ReactNativeproject\Auth\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-webview] F:\myproject\ReactNativeproject\Auth\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-fetch-blob] F:\myproject\ReactNativeproject\Auth\node_modules\react-native-fetch-blob\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-fetch-blob] F:\myproject\ReactNativeproject\Auth\node_modules\react-native-fetch-blob\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-camera] F:\myproject\ReactNativeproject\Auth\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:5:5-7:41
@@ -231,6 +232,10 @@ MERGED from [:react-native-biometrics] F:\myproject\ReactNativeproject\Auth\node
 MERGED from [:react-native-biometrics] F:\myproject\ReactNativeproject\Auth\node_modules\react-native-biometrics\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-touch-id] F:\myproject\ReactNativeproject\Auth\node_modules\react-native-touch-id\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-touch-id] F:\myproject\ReactNativeproject\Auth\node_modules\react-native-touch-id\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] F:\myproject\ReactNativeproject\Auth\node_modules\react-native-vector-icons\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] F:\myproject\ReactNativeproject\Auth\node_modules\react-native-vector-icons\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-cardview] F:\myproject\ReactNativeproject\Auth\node_modules\react-native-cardview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-cardview] F:\myproject\ReactNativeproject\Auth\node_modules\react-native-cardview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-screens] F:\myproject\ReactNativeproject\Auth\node_modules\react-native-screens\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-screens] F:\myproject\ReactNativeproject\Auth\node_modules\react-native-screens\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-gesture-handler] F:\myproject\ReactNativeproject\Auth\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
@@ -251,12 +256,12 @@ MERGED from [com.google.firebase:firebase-auth:19.0.0] C:\Users\BRIGHT\.gradle\c
 MERGED from [com.google.firebase:firebase-auth:19.0.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\0f95d88ed5c5c9590bd232604f07dea3\firebase-auth-19.0.0\AndroidManifest.xml:21:5-44
 MERGED from [org.webkit:android-jsc:r245459] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\6224978c44c9db0c1e30902cf2f4a183\android-jsc-r245459\AndroidManifest.xml:7:5-9:41
 MERGED from [org.webkit:android-jsc:r245459] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\6224978c44c9db0c1e30902cf2f4a183\android-jsc-r245459\AndroidManifest.xml:7:5-9:41
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\ccc4f60e4549c263b614feec2a027fa2\cardview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\ccc4f60e4549c263b614feec2a027fa2\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-vision:17.0.2] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\1cdc90bc355839784d313736b30109a2\play-services-vision-17.0.2\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-vision:17.0.2] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\1cdc90bc355839784d313736b30109a2\play-services-vision-17.0.2\AndroidManifest.xml:5:5-44
 MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\ae8b971b40c132101f87c0e7d5e73037\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\ae8b971b40c132101f87c0e7d5e73037\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\ccc4f60e4549c263b614feec2a027fa2\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\ccc4f60e4549c263b614feec2a027fa2\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.transition:transition:1.0.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\402e2fb3baa5e6ca3b4a0d7ccbd7cd5b\transition-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.transition:transition:1.0.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\402e2fb3baa5e6ca3b4a0d7ccbd7cd5b\transition-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] C:\Users\BRIGHT\.gradle\caches\transforms-2\files-2.1\a75037d1d74cdf90850f6be7589b08d1\firebase-auth-interop-18.0.0\AndroidManifest.xml:5:5-44
@@ -357,6 +362,22 @@ INJECTED from F:\myproject\ReactNativeproject\Auth\android\app\src\debug\Android
 	android:minSdkVersion
 		INJECTED from F:\myproject\ReactNativeproject\Auth\android\app\src\main\AndroidManifest.xml
 		INJECTED from F:\myproject\ReactNativeproject\Auth\android\app\src\debug\AndroidManifest.xml
+provider#com.reactnativecommunity.webview.RNCWebViewFileProvider
+ADDED from [:react-native-webview] F:\myproject\ReactNativeproject\Auth\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-20:20
+	android:grantUriPermissions
+		ADDED from [:react-native-webview] F:\myproject\ReactNativeproject\Auth\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-47
+	android:authorities
+		ADDED from [:react-native-webview] F:\myproject\ReactNativeproject\Auth\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-64
+	android:exported
+		ADDED from [:react-native-webview] F:\myproject\ReactNativeproject\Auth\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-37
+	android:name
+		ADDED from [:react-native-webview] F:\myproject\ReactNativeproject\Auth\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-83
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:react-native-webview] F:\myproject\ReactNativeproject\Auth\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-19:63
+	android:resource
+		ADDED from [:react-native-webview] F:\myproject\ReactNativeproject\Auth\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:17-60
+	android:name
+		ADDED from [:react-native-webview] F:\myproject\ReactNativeproject\Auth\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:17-67
 uses-feature#android.hardware.camera
 ADDED from [:react-native-camera] F:\myproject\ReactNativeproject\Auth\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:11:5-13:36
 	android:required
@@ -379,12 +400,6 @@ ADDED from [:react-native-image-picker] F:\myproject\ReactNativeproject\Auth\nod
 		ADDED from [:react-native-image-picker] F:\myproject\ReactNativeproject\Auth\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-37
 	android:name
 		ADDED from [:react-native-image-picker] F:\myproject\ReactNativeproject\Auth\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-56
-meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from [:react-native-image-picker] F:\myproject\ReactNativeproject\Auth\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-17:58
-	android:resource
-		ADDED from [:react-native-image-picker] F:\myproject\ReactNativeproject\Auth\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:17-55
-	android:name
-		ADDED from [:react-native-image-picker] F:\myproject\ReactNativeproject\Auth\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:17-67
 uses-feature#android.hardware.fingerprint
 ADDED from [:react-native-biometrics] F:\myproject\ReactNativeproject\Auth\node_modules\react-native-biometrics\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-13:36
 	android:required

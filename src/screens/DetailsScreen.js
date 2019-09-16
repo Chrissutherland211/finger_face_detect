@@ -3,6 +3,7 @@ import { Button, View, Text } from 'react-native';
 import * as Actions from '../redux/actions/index';
 import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
+import { WebView } from 'react-native-webview';
 
 class DetailsScreen extends React.Component {
 
@@ -11,14 +12,11 @@ class DetailsScreen extends React.Component {
       const itemId = navigation.getParam('itemId', 'NO-ID');
       const otherParam = navigation.getParam('otherParam', 'some default value');
       
-      return (
-        <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-          
-          
-
-        <Text>You can search anydatas from now...</Text>
-        
-        </View>
+      return (       
+          <WebView
+            source={{ uri: 'http://cloud123.cv2link.com' }}
+            style={{ marginTop: 20 }}
+          />
       );
     }
   }

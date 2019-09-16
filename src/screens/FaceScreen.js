@@ -55,7 +55,7 @@ class FaceScreen extends React.Component {
         this.refs.toast.showTop('Failed Your Face Verify!');
         console.log(this.state.times)
         if(this.state.times == 0){          
-          this.setState({showVerify:false})
+          this.props.navigation.navigate('ForgotPassword')
         }
       } else {
         for (const persons of res){
@@ -69,7 +69,7 @@ class FaceScreen extends React.Component {
               this.setState({times:times-1})
               this.refs.toast.showTop('Failed Your Face Verify!');
               if(this.state.times == 0){                
-                this.setState({showVerify:false})
+                this.props.navigation.navigate('ForgotPassword')
               }
             }
           }
@@ -122,17 +122,8 @@ class FaceScreen extends React.Component {
                   </View>
                   }
                                                              
-                </View>
-                
-                  <View style={{flexDirection:'row'}}>
-                      <Text style={{fontSize:15, margin:10}}>Create new account?</Text>
-                      <TouchableOpacity
-                      onPress={() => {this.props.navigation.navigate('SignUp');}}
-                      
-                      >
-                          <Text style={{fontSize:15, margin:10, color:'red'}}>Sign Up</Text> 
-                      </TouchableOpacity>     
-                  </View>          
+                </View>        
+                 
             </View>
           </ScrollView>
         </KeyboardAwareView>

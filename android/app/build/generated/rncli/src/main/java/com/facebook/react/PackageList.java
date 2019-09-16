@@ -33,6 +33,8 @@ import com.swmansion.rnscreens.RNScreensPackage;
 import com.rnfingerprint.FingerprintAuthPackage;
 // react-native-vector-icons
 import com.oblador.vectoricons.VectorIconsPackage;
+// react-native-webview
+import com.reactnativecommunity.webview.RNCWebViewPackage;
 
 public class PackageList {
   private Application application;
@@ -75,7 +77,8 @@ public class PackageList {
       new ReanimatedPackage(),
       new RNScreensPackage(),
       new FingerprintAuthPackage(),
-      new VectorIconsPackage()
+      new VectorIconsPackage(),
+      new RNCWebViewPackage()
     ));
   }
 }
